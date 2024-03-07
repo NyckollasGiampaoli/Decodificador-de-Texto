@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="src/img/fotoPerfil.png" alt="Foto de perfil de Nyckollas Martins">
+        <h1 class="Titulo"> Projeto de Nyckollas Martins</h1>
+    </header>
+    <main>
+        <div class="Conteudo">
+            <div class="Conteudo__Entrada">
+                <textarea name="Digite aqui" id="Input" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+            </div>
+            <div class="Conteudo__botões">
+                <div class="Informações">
+                    <p> <img src="src/img/danger.png" alt="Imagem Danger" class="danger"> Digite apenas letras minúsuculas e sem acento</p>
+                </div> 
+                <div class="Botoes">
+                    <button class="Criptografar" onclick="Criptografar()"> Criptografar </button>
+                    <button class="Descriptografar" onclick="Descriptografar()"> Descriptografar </button>
+                </div>   
+            </div>
+        </div> 
+        <div class="Saida">
+            <div class="Resultado">
+                <img src="src/img/sadness.jpg" alt="Cara triste" id="triste">
+                <div class="Resultado__Escrita">
+                    <h1 class="Resultado__Texto">Nenhuma mensagem encontrada</h1>
+                    <p class="Resultado__pedido"> Digite um texto que você deseja criptografar ou descriptografar.</p>    
+                </div>
+            </div>
+        </div> 
+    </main>
+    <script src="src/scripts/app.js"></script>
+</body>
+</html>
